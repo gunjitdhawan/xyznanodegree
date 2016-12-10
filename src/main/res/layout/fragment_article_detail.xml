@@ -106,9 +106,11 @@
                                                         android:layout_height="wrap_content"
                                                         android:layout_gravity="end|bottom"
                                                         app:fabSize="normal"
+                                                        app:pressedTranslationZ="@dimen/appbar_elevation"
                                                         android:layout_margin="@dimen/fab_margin"
                                                         android:src="@drawable/ic_share"
-                                                        android:elevation="@dimen/fab_elevation"
+                                                        android:elevation="@dimen/appbar_elevation"
+                                                        app:elevation="@dimen/appbar_elevation"
                                                         app:layout_behavior="com.example.xyzreader.ui.ScrollingFABBehaviour"
                                                          />
     </android.support.design.widget.CoordinatorLayout>
